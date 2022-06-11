@@ -8,15 +8,8 @@ import plotly.io as pio
 
 import streamlit as st
 
-st.title("Student Performance")
 
 df = pd.read_csv("../data/student_data2.csv", sep=',')
-
-# Basic set-up of the page:
-
-st.header("Student Performance")
-
-st.subheader('Improvability score vs. Final grade')
 
 fig = go.Figure(data=[
     go.Scatter(
