@@ -34,7 +34,6 @@ fig.update_layout(
     xaxis={"title": {"text": "Final grade", "font": {"size": 16}}},
     yaxis={"title": {"text": "Improvability score", "font": {"size": 16}}}
 )
-fig.show()
 
 st.plotly_chart(fig)
 
