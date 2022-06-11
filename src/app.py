@@ -36,6 +36,6 @@ fig.update_layout(
 )
 fig.show()
 
-st.plotly_chart()
+st.plotly_chart(fig)
 
 
