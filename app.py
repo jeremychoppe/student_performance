@@ -9,7 +9,7 @@ import plotly.io as pio
 import streamlit as st
 
 
-df = pd.read_csv("../data/student_data2.csv", sep=',')
+df = pd.read_csv("student_data2.csv", sep=',')
 
 fig = go.Figure(data=[
     go.Scatter(
